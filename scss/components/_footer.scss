@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    background-color:rgba(122, 112, 175, 0.484);
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        margin: 20px;
+        padding-top: 20px;
+    }
+    .volverarriba{
+        a{
+            background-color: rgba(108, 49, 49, 0.132);
+            color: black;
+            border: 2px black solid;
+            padding: 10px; 
+            font-family: 'Noto Serif Hebrew', sans-serif;
+            border: 2px rgb(18, 69, 116) double;
+            border-radius: 25px;
+            box-shadow: 0px 3px 3px 2px;
+        }
+    }
+}

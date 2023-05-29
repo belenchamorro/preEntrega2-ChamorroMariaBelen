@@ -1,0 +1,452 @@
+ /*----------INICIO-------------*/
+main{
+    .urgencia{
+        background-image: url(../img/fondoinicio.jpg);
+        width: 100%;
+        height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        div{
+            background-color: rgba(255, 255, 255, 0.425);
+            padding: 30px 20px;
+            margin-left: 650px;
+            width: 15%;
+            border: 3px rgb(66, 56, 56) solid dotted;
+            @include flex (flex, column, center);
+            border-radius: 49% 51% 50% 50% / 49% 49% 51% 51% ;
+            transition: all 0.5s ease;
+            &:hover{
+                transform: scale(1.1 , 1.1);
+                transition: all 0.5s ease;
+            }
+            h3{
+                
+            }
+            a{
+                padding: 5px;
+                margin: 10px;
+                color: rgb(244, 237, 237);
+                background-color: rgb(22, 22, 22);
+                border-radius: 30px;
+                &:hover{
+                    background-color: rgb(241, 242, 243);
+                    color: black;
+                    border-radius: 20px;
+                    padding: 15px;
+                    font-family: 'Lilita One', sans-serif;
+                }
+            }
+        }
+    }
+    section{
+        h3{
+            background-color: rgb(55, 162, 176);
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 25px;
+            font-family: 'Lilita One', sans-serif; 
+            border-radius: 50px;
+        }
+        .informacion{
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Noto Serif Hebrew', sans-serif;
+            color: rgb(22, 22, 22);
+            .tarjetas{
+                padding: 20px 15px;
+                margin: 40px 25px 50px 25px;
+                background-color: rgba(6, 6, 6, 0.523);
+                border: 3px rgb(241, 237, 237) solid;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                img{
+                    border-style: groove;
+                    border-radius: 20px;
+                }
+                a{
+                    color: rgb(9, 210, 236);
+                    font-size: 20px;
+                }
+                p{
+
+                }
+            }
+        }
+    }
+    .nuestrosClientes{
+        h3{
+            background-color: rgb(55, 162, 176);
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 25px;
+            font-family: 'Lilita One', sans-serif;
+        }
+        .clientesFelices{
+            margin: 40px 0px 50px 0px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-family: 'Noto Serif Hebrew', sans-serif; 
+            .clientes{
+                border: 2px rgb(114, 225, 250) dotted;
+                border-radius: 15px;
+                img{
+                    border-radius: 35px;
+                }
+                p{
+
+                }
+            }
+        }
+    }
+    #experienciasClientes{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+        font-family: 'Lilita One', sans-serif;
+        background-image: url(../img/fondoinicio3.jpg);
+        h3{
+
+        }
+        .comentarios{
+            background-color: black solid;
+            margin: 40px 0px 10px 0px;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            font-family: 'Noto Serif Hebrew', sans-serif;
+            .experiencia{
+                margin: 20px;
+                border-style: inset;
+                justify-content: space-between;
+                background-color: rgba(183, 221, 145, 0.874);
+                img{
+                    border-radius: 50px;
+                }
+                h5{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: rgb(17, 81, 81);
+                    font-size: 15px;
+                    margin: 10px;
+                }
+                p{
+                    font-family: 'Times New Roman', Times, serif;
+                    color: black;
+                    font-size: 20px;
+                }
+            }
+        }
+        .formulario{
+            text-align: center;
+            margin: 0px 50px 30px 0px;
+            h4{
+                padding: 10px;
+                color: rgb(12, 12, 12);
+                text-align: center;  
+            }
+            a{
+                color: rgb(27, 100, 153);
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+    /*----------PRODUCTO--------------*/ 
+
+   main{
+        .fondoproducto{
+            background-image: url(../img/fondoproducto.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            section{
+                h3{
+
+                }
+            }
+            section{
+                h2{
+                    text-align: center;
+                }
+                h4{
+                    background-color: rgba(67, 161, 229, 0.418);
+                    text-align: center;
+                    background-size: 10px;
+                    margin-top: 30px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+            .variedadAlimento{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+                margin-left: 30px;
+                gap: 15px;
+                width: 100%;
+                div{
+                    width: 400px;
+                    height: 400px;
+                    text-align: center;
+                    img{
+                        align-items: center;
+                        width: 300px;
+                        height: 300px;
+                    }
+                    h2{
+
+                    }
+                    p{
+
+                    }
+                }
+            }
+            .petshop{
+                h4{
+                    background-color: rgba(67, 161, 229, 0.418);
+                    text-align: center;
+                    background-size: 10px;
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+                h5{
+                    text-align: center;
+                    font-size: 25px;
+                    background-color: rgb(16, 16, 16);
+                    color: aliceblue;
+                    background-size: 50%;
+                }
+            }
+            .accesorios{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+                gap: 10px;
+                div{
+                    text-align: center;
+                    img{
+                        align-items: center;
+                        width: 70%;
+                        height: 70%;  
+                        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                    }
+                    h2{
+                        font-size: 25px;
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+   }
+
+   /*----------SERVICIOS--------------*/
+
+   .fondoservicio{
+    background-image: url(../img/fondoservicios.jpg);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+        section{
+            h3{
+
+            }
+        }
+        section{
+            h2{
+                text-align: center;
+                font-family: popins;
+                background-color: rgba(32, 178, 171, 0.132);
+                border-radius: 100%;
+            }
+            p{
+                text-align: center;
+                background-color: rgba(242, 244, 244, 0.764);
+                font-size: 15px;
+                font-family: noto serif hebrew;
+            }
+        }
+        section{
+            .serviciosdisponibles{
+                @include flex (flex, column, center);
+                text-align: center;
+                margin: 35px 0px 35px 0px;
+                h4{
+                    background-color: lightcoral;
+                    width: 100%;
+                }
+                p{
+                    text-align: center;
+                }
+                img{
+                    width: 50%;
+                    height: 50%;
+                }
+            }
+        }
+    }
+   
+    /*----------SOBRENOSOTROS--------------*/
+
+    main{
+        section{
+            h3{
+                text-align: center;
+            }
+        }
+        .historianosotros{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            text-align: center;
+            font-size:large;
+            background-color: rgb(245, 236, 236);
+            color: rgb(31, 67, 98);
+            .frente{
+                margin: 20px;
+                img{
+                    width: 400px;
+                    height: 400px;
+                    position: relative;
+                }
+            }
+            .comienzo{
+                padding: 120px;
+                p{
+
+                }
+            }
+            .interior{
+                margin: 20px;
+                img{
+                    width: 400px;
+                    height: 400px;
+                    position: relative;
+                }
+            }
+        }
+        .undiaconnos{
+            text-align: center;
+            padding: 30px;
+            div{
+                h2{
+                    color: rgb(7, 71, 136);
+                    padding: 10px;
+                    font-size: 30px;
+                }
+                iframe{
+
+                }
+            }
+        }
+        section{
+            .nombre{
+                h2{
+                    text-align: center;
+                    font-size: 25px;
+                    color: rgb(11, 11, 11);
+                    background-color: rgba(186, 118, 180, 0.796);
+                    border-radius: 20px;
+                    margin: 20px 80px;
+                }
+            }
+        }
+        .profesionales{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            position: relative;
+            margin-left: 75px;
+            padding: 0px 0px 30px 0px ;
+           .medicos{
+             img{
+                width: 400px;
+                height: 400px;
+                position: relative;
+             }
+             h2{
+
+             }
+             h4{
+
+             }
+           } 
+        }
+    }
+
+    /*----------CONTACTO--------------*/
+
+    main{
+        section{
+            .ubicacion{
+                background-color:white;
+                @include flex (flex, column, center);
+                text-align: center;
+                padding: 40px;
+                color: rgb(9, 9, 9);
+                h2{
+
+                }
+                iframe{
+                    height: 460px;
+                    width: 460px;
+                }
+            }
+        }
+        #formularioRegistro{
+            background-image: url(../img/fondocontacto.jpg);
+            height: 600px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .formularioContenedor{
+                background-color:rgb(233, 174, 174);
+                border-style: double;
+                margin-top: 5px;
+                h3{
+                    background-color: rgba(206, 103, 103, 0.596);
+                    margin: 10px;
+                    border-radius: 5px;
+                    font-family: 'Cormorant Garamond';
+                }
+                form{
+                    div{
+                        label{
+
+                        }
+                        input{
+
+                        }
+                    }
+                    div{
+                        h5{
+                            background-color: rgb(197, 197, 167);
+                            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            margin-top: 5px;
+                        }
+                        textarea{
+
+                        }
+                    }
+                    div{
+                        input{
+
+                        }
+                    }
+                }
+            }
+        }
+    }

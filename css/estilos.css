@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lilita+One&family=Noto+Serif+Hebrew:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgba(199, 235, 246, 0.068); }
+
+/*----------extends--------------*/
+header nav {
+  background-color: rgba(122, 112, 175, 0.484); }
+  header nav div .logoTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    header nav div .logoTitulo a img {
+      width: 100px;
+      height: 100px; }
+    header nav div .logoTitulo h1 {
+      font-family: 'Lilita One', sans-serif;
+      margin: 0%; }
+    header nav div .logoTitulo h2 {
+      font-size: 25px;
+      margin: 0px;
+      color: #37a2b0; }
+  header nav div div ul li a {
+    background-color: rgba(108, 49, 49, 0.132);
+    color: black;
+    border: 2px black solid;
+    padding: 10px;
+    font-family: 'Noto Serif Hebrew', sans-serif;
+    border: 2px #124574 double;
+    border-radius: 25px;
+    box-shadow: 0px 3px 3px 2px;
+    margin: 0px 15px 0px 15px; }
+    header nav div div ul li a:hover {
+      transform: scale(1.2, 1.2);
+      transition: all 0.5s ease-out; }
+  header nav div div ul li .dropdown-menu li a {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: none;
+    box-shadow: none; }
+  header nav div div .d-flex button {
+    background-color: rgba(108, 49, 49, 0.132);
+    color: black;
+    border: 2px black solid;
+    padding: 10px;
+    font-family: 'Noto Serif Hebrew', sans-serif;
+    border: 2px #124574 double;
+    border-radius: 25px;
+    box-shadow: 0px 3px 3px 2px;
+    margin: 0px 15px 0px 15px; }
+    header nav div div .d-flex button:hover {
+      color: white;
+      background-color: #37a2b0;
+      border: 2px black solid;
+      box-shadow: 0 3px 3px 3px black; }
+
+/*----------INICIO-------------*/
+main .urgencia {
+  background-image: url(../img/fondoinicio.jpg);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; }
+  main .urgencia div {
+    background-color: rgba(255, 255, 255, 0.425);
+    padding: 30px 20px;
+    margin-left: 650px;
+    width: 15%;
+    border: 3px #423838 solid dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 49% 51% 50% 50% / 49% 49% 51% 51%;
+    transition: all 0.5s ease; }
+    main .urgencia div:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 0.5s ease; }
+    main .urgencia div a {
+      padding: 5px;
+      margin: 10px;
+      color: #f4eded;
+      background-color: #161616;
+      border-radius: 30px; }
+      main .urgencia div a:hover {
+        background-color: #f1f2f3;
+        color: black;
+        border-radius: 20px;
+        padding: 15px;
+        font-family: 'Lilita One', sans-serif; }
+
+main section h3 {
+  background-color: #37a2b0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'Lilita One', sans-serif;
+  border-radius: 50px; }
+
+main section .informacion {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Noto Serif Hebrew', sans-serif;
+  color: #161616; }
+  main section .informacion .tarjetas {
+    padding: 20px 15px;
+    margin: 40px 25px 50px 25px;
+    background-color: rgba(6, 6, 6, 0.523);
+    border: 3px #f1eded solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    main section .informacion .tarjetas img {
+      border-style: groove;
+      border-radius: 20px; }
+    main section .informacion .tarjetas a {
+      color: #09d2ec;
+      font-size: 20px; }
+
+main .nuestrosClientes h3 {
+  background-color: #37a2b0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'Lilita One', sans-serif; }
+
+main .nuestrosClientes .clientesFelices {
+  margin: 40px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Noto Serif Hebrew', sans-serif; }
+  main .nuestrosClientes .clientesFelices .clientes {
+    border: 2px #72e1fa dotted;
+    border-radius: 15px; }
+    main .nuestrosClientes .clientesFelices .clientes img {
+      border-radius: 35px; }
+
+main #experienciasClientes {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'Lilita One', sans-serif;
+  background-image: url(../img/fondoinicio3.jpg); }
+  main #experienciasClientes .comentarios {
+    background-color: black solid;
+    margin: 40px 0px 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Noto Serif Hebrew', sans-serif; }
+    main #experienciasClientes .comentarios .experiencia {
+      margin: 20px;
+      border-style: inset;
+      justify-content: space-between;
+      background-color: rgba(183, 221, 145, 0.874); }
+      main #experienciasClientes .comentarios .experiencia img {
+        border-radius: 50px; }
+      main #experienciasClientes .comentarios .experiencia h5 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #115151;
+        font-size: 15px;
+        margin: 10px; }
+      main #experienciasClientes .comentarios .experiencia p {
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 20px; }
+  main #experienciasClientes .formulario {
+    text-align: center;
+    margin: 0px 50px 30px 0px; }
+    main #experienciasClientes .formulario h4 {
+      padding: 10px;
+      color: #0c0c0c;
+      text-align: center; }
+    main #experienciasClientes .formulario a {
+      color: #1b6499;
+      font-size: 20px; }
+
+/*----------PRODUCTO--------------*/
+main .fondoproducto {
+  background-image: url(../img/fondoproducto.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  main .fondoproducto section h2 {
+    text-align: center; }
+  main .fondoproducto section h4 {
+    background-color: rgba(67, 161, 229, 0.418);
+    text-align: center;
+    background-size: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  main .fondoproducto section p {
+    text-align: center; }
+  main .fondoproducto .variedadAlimento {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin-left: 30px;
+    gap: 15px;
+    width: 100%; }
+    main .fondoproducto .variedadAlimento div {
+      width: 400px;
+      height: 400px;
+      text-align: center; }
+      main .fondoproducto .variedadAlimento div img {
+        align-items: center;
+        width: 300px;
+        height: 300px; }
+  main .fondoproducto .petshop h4 {
+    background-color: rgba(67, 161, 229, 0.418);
+    text-align: center;
+    background-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%; }
+  main .fondoproducto .petshop h5 {
+    text-align: center;
+    font-size: 25px;
+    background-color: #101010;
+    color: aliceblue;
+    background-size: 50%; }
+  main .fondoproducto .accesorios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px; }
+    main .fondoproducto .accesorios div {
+      text-align: center; }
+      main .fondoproducto .accesorios div img {
+        align-items: center;
+        width: 70%;
+        height: 70%;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+      main .fondoproducto .accesorios div h2 {
+        font-size: 25px;
+        margin: 10px; }
+
+/*----------SERVICIOS--------------*/
+.fondoservicio {
+  background-image: url(../img/fondoservicios.jpg);
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed; }
+  .fondoservicio section h2 {
+    text-align: center;
+    font-family: popins;
+    background-color: rgba(32, 178, 171, 0.132);
+    border-radius: 100%; }
+  .fondoservicio section p {
+    text-align: center;
+    background-color: rgba(242, 244, 244, 0.764);
+    font-size: 15px;
+    font-family: noto serif hebrew; }
+  .fondoservicio section .serviciosdisponibles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 35px 0px 35px 0px; }
+    .fondoservicio section .serviciosdisponibles h4 {
+      background-color: lightcoral;
+      width: 100%; }
+    .fondoservicio section .serviciosdisponibles p {
+      text-align: center; }
+    .fondoservicio section .serviciosdisponibles img {
+      width: 50%;
+      height: 50%; }
+
+/*----------SOBRENOSOTROS--------------*/
+main section h3 {
+  text-align: center; }
+
+main .historianosotros {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  font-size: large;
+  background-color: #f5ecec;
+  color: #1f4362; }
+  main .historianosotros .frente {
+    margin: 20px; }
+    main .historianosotros .frente img {
+      width: 400px;
+      height: 400px;
+      position: relative; }
+  main .historianosotros .comienzo {
+    padding: 120px; }
+  main .historianosotros .interior {
+    margin: 20px; }
+    main .historianosotros .interior img {
+      width: 400px;
+      height: 400px;
+      position: relative; }
+
+main .undiaconnos {
+  text-align: center;
+  padding: 30px; }
+  main .undiaconnos div h2 {
+    color: #074788;
+    padding: 10px;
+    font-size: 30px; }
+
+main section .nombre h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #0b0b0b;
+  background-color: rgba(186, 118, 180, 0.796);
+  border-radius: 20px;
+  margin: 20px 80px; }
+
+main .profesionales {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  position: relative;
+  margin-left: 75px;
+  padding: 0px 0px 30px 0px; }
+  main .profesionales .medicos img {
+    width: 400px;
+    height: 400px;
+    position: relative; }
+
+/*----------CONTACTO--------------*/
+main section .ubicacion {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  color: #090909; }
+  main section .ubicacion iframe {
+    height: 460px;
+    width: 460px; }
+
+main #formularioRegistro {
+  background-image: url(../img/fondocontacto.jpg);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  main #formularioRegistro .formularioContenedor {
+    background-color: #e9aeae;
+    border-style: double;
+    margin-top: 5px; }
+    main #formularioRegistro .formularioContenedor h3 {
+      background-color: rgba(206, 103, 103, 0.596);
+      margin: 10px;
+      border-radius: 5px;
+      font-family: 'Cormorant Garamond'; }
+    main #formularioRegistro .formularioContenedor form div h5 {
+      background-color: #c5c5a7;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-top: 5px; }
+
+footer {
+  display: flex;
+  background-color: rgba(122, 112, 175, 0.484);
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center; }
+  footer div {
+    margin: 20px;
+    padding-top: 20px; }
+  footer .volverarriba a {
+    background-color: rgba(108, 49, 49, 0.132);
+    color: black;
+    border: 2px black solid;
+    padding: 10px;
+    font-family: 'Noto Serif Hebrew', sans-serif;
+    border: 2px #124574 double;
+    border-radius: 25px;
+    box-shadow: 0px 3px 3px 2px; }
+
+/*----------INICIO--------------*/
+@media screen and (max-width: 1300px) {
+  main .urgencia div {
+    margin: 40px 200px;
+    width: 20%; }
+  main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main section h3 {
+      width: 80%; }
+    main section .informacion {
+      flex-direction: column;
+      align-items: center;
+      width: 80%; }
+      main section .informacion .tarjetas {
+        width: 80%; }
+  main .nuestrosClientes .clientesFelices {
+    flex-direction: column;
+    width: 60%;
+    padding: 10px; }
+    main .nuestrosClientes .clientesFelices .clientes {
+      text-align: center;
+      padding: 40px;
+      margin-top: 30px; }
+      main .nuestrosClientes .clientesFelices .clientes img {
+        width: 100%;
+        height: 100%; } }
+
+@media screen and (max-width: 882px) {
+  main .urgencia {
+    background-position: center;
+    height: 350px; }
+    main .urgencia div {
+      margin: 40px 200px;
+      width: 30%; } }
+
+@media screen and (max-width: 600px) {
+  main .urgencia {
+    background-position: left; }
+    main .urgencia div {
+      width: 65%;
+      border-radius: 100px;
+      background-color: transparent; }
+    main .urgencia a {
+      font-size: small; }
+    main .urgencia h3 {
+      font-size: medium; }
+  main #experienciasClientes .comentarios {
+    flex-direction: column; }
+  main #experienciasClientes .formulario {
+    margin: 10px 20px; }
+  footer {
+    display: flex;
+    flex-direction: column; }
+    footer div {
+      margin: 5px;
+      margin-top: 10px; } }
+
+/*----------PRODUCTO--------------*/
+@media screen and (max-width: 1200px) {
+  main .variedadAlimento {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin-left: 30px;
+    gap: 15px;
+    width: 100%; }
+  main .accesorios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px; } }
+
+@media screen and (max-width: 882px) {
+  main .variedadAlimento {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 15px; }
+  main .accesorios {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 10px; } }
+
+/*----------SERVICIOS--------------*/
+@media screen and (max-width: 1405px) {
+  header .logoTitulo h1 {
+    font-size: larger; } }
+
+@media screen and (max-width: 600px) {
+  .fondoservicio section .serviciosdisponibles img {
+    width: 90%; } }
+
+/*----------SOBRE NOSOTROS--------------*/
+@media screen and (max-width: 1250px) {
+  main .historianosotros {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    background-color: #f5ecec;
+    color: #1f4362; }
+    main .historianosotros img {
+      width: 400px;
+      height: 400px; } }
+
+@media screen and (max-width: 1200px) {
+  main .profesionales {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    position: relative;
+    margin-left: 75px;
+    padding: 0px 0px 30px 0px; } }
+
+@media screen and (max-width: 882px) {
+  main .profesionales {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    position: relative;
+    margin-left: 75px;
+    padding: 0px 0px 30px 0px; }
+    main .profesionales .medicos {
+      text-align: center; }
+  main .undiaconnos div iframe {
+    width: 400px;
+    height: 200px; } }
+
+/*----------CONTACTO--------------*/
+@media screen and (max-width: 1300px) {
+  header .container-fluid .logoTitulo h1 {
+    font-size: 18px; }
+  header .container-fluid .logoTitulo h2 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 600px) {
+  main section .ubicacion h2 {
+    text-align: start; }
+  main section .ubicacion iframe {
+    height: 300px;
+    width: 300px; } }

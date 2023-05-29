@@ -81,6 +81,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#urgencias{
+    display: flex;
+    align-items: center;
+}
 
 .urgencia div{
     background-color: rgba(255, 255, 255, 0.425);
@@ -92,11 +96,6 @@
     flex-direction: column;
     align-items: center;
     border-radius: 70px;
-}
-
-#urgencias{
-    display: flex;
-    align-items: center;
 }
 
 .urgencia div a{
@@ -124,7 +123,7 @@ section h3{
     border-radius: 50px;
 }
 
-#informacion{
+.informacion{
     display: flex;
     justify-content: space-between;
     font-family: 'Noto Serif Hebrew', sans-serif;
