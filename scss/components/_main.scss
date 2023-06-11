@@ -42,7 +42,7 @@ main{
     }
     section{
         h3{
-            background-color: rgb(55, 162, 176);
+            background-color: $color-primario;
             text-align: center;
             padding: 20px;
             margin-top: 20px;
@@ -79,7 +79,7 @@ main{
     }
     .nuestrosClientes{
         h3{
-            background-color: rgb(55, 162, 176);
+            background-color: $color-primario;
             text-align: center;
             padding: 20px;
             margin-top: 20px;
@@ -282,7 +282,7 @@ main{
                 text-align: center;
                 margin: 35px 0px 35px 0px;
                 h4{
-                    background-color: lightcoral;
+                    background-color: $color-secundario;
                     width: 100%;
                 }
                 p{
@@ -355,7 +355,7 @@ main{
                     text-align: center;
                     font-size: 25px;
                     color: rgb(11, 11, 11);
-                    background-color: rgba(186, 118, 180, 0.796);
+                    background-color: $color-secundario;
                     border-radius: 20px;
                     margin: 20px 80px;
                 }
@@ -376,10 +376,12 @@ main{
                 position: relative;
              }
              h2{
-
+                font-size: 20px;
+                text-align: center;
              }
              h4{
-
+                font-size: 15px;
+                text-align: center;
              }
            } 
         }
@@ -393,10 +395,11 @@ main{
                 background-color:white;
                 @include flex (flex, column, center);
                 text-align: center;
-                padding: 40px;
+                padding: 5px;
                 color: rgb(9, 9, 9);
-                h2{
-
+                h3{
+                    width: 100%;
+                    margin: 20px 0px;
                 }
                 iframe{
                     height: 460px;
